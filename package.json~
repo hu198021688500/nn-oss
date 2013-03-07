@@ -1,0 +1,27 @@
+{
+	"name" : "nn-oss",
+	"author" : "hugb",
+	"description" : "",
+	"version" : "0.0.1",
+	"main" : "./lib/oss.js",
+	"keywords" : ["oss"],
+	"dependencies" : {
+		"async" : ">0.0.1",
+		"request" : ">0.0.1",
+		"xml2js" : "*",
+		"mime" : "*",
+		"data2xml" : "*",
+		"oppressor": "*",
+		"ndir" : "0.1.2"
+	},
+	"devDependencies" : {
+	},
+	"scripts" : {
+		"test" : "make test"
+	},
+	"repository" : {
+		"type" : "svn",
+		"url" : "http://192.168.20.30/repos/business/yueta/trunk/04sourcecode/web/server/service/storage"
+	},
+	"readmeFilename" : "README.md"
+}
